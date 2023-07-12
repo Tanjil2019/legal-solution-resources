@@ -4,8 +4,125 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Legal-solution-resources</title>
+
+   <link rel="stylesheet" href="style.css">
+
+   <!-- Tailwind link -->
+   <script src="https://cdn.tailwindcss.com"></script>
+
+   <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+              bg:'#B68C5A',
+            }
+          }
+        }
+      }
+    </script>
+
 </head>
 <body>
-   <h1>Hello</h1>
+  <!--nav start here  -->
+   <nav class="container flex justify-around items-center  p-10">
+         <div class="flex space-x-3">
+            <img class="" src="images/Group 1.svg " alt="">
+            <h1 class="font-semibold mt-5 text-3xl">Justice</h1>
+         </div>
+         <div>
+            <ul class="flex space-x-4 justify-center items-center">
+               <a href="">Home</a>
+               <img class="w-auto" src="images/Frame.svg" alt="">
+               <a href="">Service</a>
+               <img class="w-auto" src="images/Frame.svg" alt="">
+               <a href="">Coses</a>
+               <img class="w-auto" src="images/Frame.svg" alt="">
+               <a href="">Blog</a>
+               <img class="w-auto" src="images/Frame.svg" alt="">
+               <a href="">Contact Us</a>
+               <img class="w-auto" src="images/Frame.svg" alt="">
+            </ul>
+         </div>
+         <div>
+            <button type="button" onclick="location.href='https://tailwindcss.com/docs/height'" class="bg-bg p-2 rounded-lg">Free Consultation</button>
+         </div>
+   </nav>
+
+  <!--nav end here  -->
+
+
+  <!-- header start here-->
+   <header class="bg-[url('/images/banner.png')] bg-h ml">
+     <div class="p-32 space-y-6">
+      <div class="text-center space-y-6 px-40">
+         <h1 class="text-6xl text-white font-semibold">We Provide Effective <br> Legal Solutions</h1>
+         <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        </div>
+         <div class="text-center space-x-6">
+            <input class="w-96 p-2 rounded-lg" placeholder="Search your services" type="email">
+            <button type="button" onclick="location.href='https://tailwindcss.com/docs/height'" class=" bg-bg w-32 p-2 rounded-lg">Search</button>
+         </div>
+     </div>
+   </header>
+
+<!-- header end here-->
+<!-- main section start-->
+    <main>
+<!-- legal area card-->
+      <section class="container space-y-12">
+      <div class="space-y-5">
+         <h1 class="text-4xl text-center mt-24 font-semibold">The Legal Practice Area</h1>
+         <p class="text-center px-64">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+      </div>
+        <div class="grid grid-cols-3 justify-center justify-items-center gap-8">
+         <div class=" px-8 py-16 space-y-7">
+            <img class="mx-auto" src="images/business.png" alt="">
+            <h2 class="text-center text-2xl font-semibold">Business Law</h2>
+            <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            <img class="mx-auto" src="images/Frame.png" alt="">
+         </div>
+
+         <div class="bg-gray-200 px-8 py-20 space-y-7">
+            <img class="mx-auto" src="images/business.png" alt="">
+            <h2 class="text-center text-2xl font-semibold">Business Law</h2>
+            <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            <img class="mx-auto" src="images/Frame.png" alt="">
+         </div>
+
+         <div class=" px-8 py-20 space-y-7">
+            <img class="mx-auto" src="images/business.png" alt="">
+            <h2 class="text-center text-2xl font-semibold">Business Law</h2>
+            <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            <img class="mx-auto" src="images/Frame.png" alt="">
+         </div>
+
+         <div class=" px-8 py-20 space-y-7">
+            <img class="mx-auto" src="images/business.png" alt="">
+            <h2 class="text-center text-2xl font-semibold">Business Law</h2>
+            <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            <img class="mx-auto" src="images/Frame.png" alt="">
+         </div>
+
+         <div class=" px-8 py-20 space-y-7">
+            <img class="mx-auto" src="images/business.png" alt="">
+            <h2 class="text-center text-2xl font-semibold">Business Law</h2>
+            <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            <img class="mx-auto" src="images/Frame.png" alt="">
+         </div>
+
+         <div class=" px-8 py-20 space-y-7">
+            <img class="mx-auto" src="images/business.png" alt="">
+            <h2 class="text-center text-2xl font-semibold">Business Law</h2>
+            <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            <img class="mx-auto" src="images/Frame.png" alt="">
+         </div>
+
+       
+
+        </div>
+      </section>
+    </main>
 </body>
 </html>
